@@ -25,8 +25,8 @@ SECRET_KEY = '@)-l8d$zyhq#b)$8-sy_)r25(&91q)_(ak(2i_nxy=j(8)8x*o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pathonanywhere']
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com']
+#ALLOWED_HOSTS = ['127.0.0.1', '.pathonanywhere']
 
 # Application definition
 
